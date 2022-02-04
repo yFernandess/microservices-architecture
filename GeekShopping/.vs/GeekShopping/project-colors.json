@@ -15,7 +15,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "67a32d0e-2412-40f5-ae7b-43a1a87a35d4": {
+      "ProjectGuid": "67a32d0e-2412-40f5-ae7b-43a1a87a35d4",
+      "DisplayName": "GeekShopping.IdentityServer",
+      "ColorIndex": 2
+    },
+    "d3ccbd1f-a14a-4fc8-8c9f-b4dd1e61bf5e": {
+      "ProjectGuid": "d3ccbd1f-a14a-4fc8-8c9f-b4dd1e61bf5e",
+      "DisplayName": "GeekShopping.IdentityServer",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
