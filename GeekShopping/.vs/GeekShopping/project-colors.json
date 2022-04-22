@@ -30,7 +30,17 @@
       "ProjectGuid": "7b7a359b-c4e6-44a0-b373-e1ddaa12f3a6",
       "DisplayName": "GeekShopping.CartAPI",
       "ColorIndex": 4
+    },
+    "0cd03055-f8e6-4c3f-a672-da6ac072afe0": {
+      "ProjectGuid": "0cd03055-f8e6-4c3f-a672-da6ac072afe0",
+      "DisplayName": "GeekShopping.CouponAPI",
+      "ColorIndex": 5
+    },
+    "6c7f8ce6-5fa5-4e30-865b-4c65b490ba51": {
+      "ProjectGuid": "6c7f8ce6-5fa5-4e30-865b-4c65b490ba51",
+      "DisplayName": "GeekShopping.CouponAPI",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
