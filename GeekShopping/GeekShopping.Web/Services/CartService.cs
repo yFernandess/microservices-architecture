@@ -55,22 +55,34 @@ namespace GeekShopping.Web.Services
             else throw new Exception("Something went wrong when calling API");
         }
 
-        public async Task<bool> ApplyCoupon(CartViewModel cart, string couponCode, string token)
+        public async Task<bool> ApplyCoupon(CartViewModel model, string token)
         {
-            throw new System.NotImplementedException();
-        }
-
-        public async Task<bool> Checkout(CartHeaderViewModel cartHeader, string token)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public async Task<bool> ClearCart(string userId, string token)
-        {
-            throw new System.NotImplementedException();
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.PostAsJson($"{BasePath}/apply-coupon", model);
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<bool>();
+            else throw new Exception("Something went wrong when calling API");
         }
 
         public async Task<bool> RemoveCoupon(string userId, string token)
+        {
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.DeleteAsync($"{BasePath}/remove-coupon/{userId}");
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<bool>();
+            else throw new Exception("Something went wrong when calling API");
+        }
+
+        public async Task<CartHeaderViewModel> Checkout(CartHeaderViewModel model, string token)
+        {
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.PostAsJson($"{BasePath}/checkout", model);
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<CartHeaderViewModel>();
+            else throw new Exception("Something went wrong when calling API");
+        }
+
+        public async Task<bool> ClearCart(string userId, string token)
         {
             throw new System.NotImplementedException();
         }
