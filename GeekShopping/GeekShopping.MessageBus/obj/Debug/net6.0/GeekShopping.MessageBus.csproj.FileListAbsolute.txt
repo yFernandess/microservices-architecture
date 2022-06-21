@@ -1,0 +1,12 @@
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.deps.json
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\bin\Debug\net6.0\ref\GeekShopping.MessageBus.dll
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.csproj.AssemblyReference.cache
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfoInputs.cache
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfo.cs
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.csproj.CoreCompileInputs.cache
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.dll
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\ref\GeekShopping.MessageBus.dll
+E:\src\microservices-architecture\GeekShopping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.pdb

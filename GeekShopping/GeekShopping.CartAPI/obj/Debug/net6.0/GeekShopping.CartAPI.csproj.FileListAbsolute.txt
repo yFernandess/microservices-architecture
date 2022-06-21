@@ -42,3 +42,6 @@ E:\src\microservices-architecture\GeekShopping\GeekShopping.CartAPI\obj\Debug\ne
 E:\src\microservices-architecture\GeekShopping\GeekShopping.CartAPI\obj\Debug\net6.0\ref\GeekShopping.CartAPI.dll
 E:\src\microservices-architecture\GeekShopping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.pdb
 E:\src\microservices-architecture\GeekShopping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.genruntimeconfig.cache
+E:\src\microservices-architecture\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\src\microservices-architecture\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+E:\src\microservices-architecture\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb

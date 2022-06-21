@@ -40,7 +40,12 @@
       "ProjectGuid": "6c7f8ce6-5fa5-4e30-865b-4c65b490ba51",
       "DisplayName": "GeekShopping.CouponAPI",
       "ColorIndex": 6
+    },
+    "be60a36d-bd08-49ca-9e57-a8b3979725db": {
+      "ProjectGuid": "be60a36d-bd08-49ca-9e57-a8b3979725db",
+      "DisplayName": "GeekShopping.MessageBus",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
