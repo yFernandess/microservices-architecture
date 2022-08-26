@@ -45,7 +45,12 @@
       "ProjectGuid": "be60a36d-bd08-49ca-9e57-a8b3979725db",
       "DisplayName": "GeekShopping.MessageBus",
       "ColorIndex": 7
+    },
+    "0fcad3f9-44f7-4101-a9e1-9857448014f2": {
+      "ProjectGuid": "0fcad3f9-44f7-4101-a9e1-9857448014f2",
+      "DisplayName": "GeekShopping.OrderAPI",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
