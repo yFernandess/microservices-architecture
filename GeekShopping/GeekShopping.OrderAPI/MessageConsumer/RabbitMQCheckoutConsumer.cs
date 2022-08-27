@@ -33,7 +33,7 @@ namespace GeekShopping.OrderAPI.MessageConsumer
             _connection = factory.CreateConnection();
 
             _channel = _connection.CreateModel();
-            _channel.QueueDeclare(queue: "checkoutqueue", false, false, false, arguments: null);
+            _channel.QueueDeclare(queue: "checkout-queue", false, false, false, arguments: null);
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
@@ -48,7 +48,7 @@ namespace GeekShopping.OrderAPI.MessageConsumer
                 ProcessOrder(vo).GetAwaiter().GetResult();
                 _channel.BasicAck(e.DeliveryTag, false);
             };
-            _channel.BasicConsume("checkoutqueue", false, consumer);
+            _channel.BasicConsume("checkout-queue", false, consumer);
 
             return Task.CompletedTask;
         }
@@ -87,6 +87,8 @@ namespace GeekShopping.OrderAPI.MessageConsumer
                 order.CartTotalItens += details.Count;
                 order.OrderDetails.Add(detail);
             }
+
+            await _repository.AddOrder(order);
         }
     }
 }

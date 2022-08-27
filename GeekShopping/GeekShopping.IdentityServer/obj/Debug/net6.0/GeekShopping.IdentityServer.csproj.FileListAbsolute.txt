@@ -365,4 +365,4 @@ E:\src\microservices-architecture\GeekShopping\GeekShopping.IdentityServer\obj\D
 E:\src\microservices-architecture\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 E:\src\microservices-architecture\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
 E:\src\microservices-architecture\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\src\microservices-architecture\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-C3A37AEEE84C4B21B506E6AE8F831ACB.json
+E:\src\microservices-architecture\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-F19876CF3AD3771DA3295B1AE9AA5C74.json
