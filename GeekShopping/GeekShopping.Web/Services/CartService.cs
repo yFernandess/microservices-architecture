@@ -77,10 +77,14 @@ namespace GeekShopping.Web.Services
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await _client.PostAsJson($"{BasePath}/checkout", model);
+
+            return await response.ReadContentAs<CartHeaderViewModel>();
+
             if (response.IsSuccessStatusCode)
             {
                 return await response.ReadContentAs<CartHeaderViewModel>();
-            } else if (response.StatusCode.ToString().Equals("PreconditionFailed"))
+            }
+            else if (response.StatusCode.ToString().Equals("PreconditionFailed"))
             {
                 return "Coupon Price has changed, please confirm!";
             }
