@@ -60,7 +60,12 @@
       "ProjectGuid": "67d0e09e-e75d-438d-9fe8-143058396159",
       "DisplayName": "GeekShopping.PaymentAPI",
       "ColorIndex": 10
+    },
+    "79e9cf21-f62c-468d-8058-a174df8a66de": {
+      "ProjectGuid": "79e9cf21-f62c-468d-8058-a174df8a66de",
+      "DisplayName": "GeekShopping.Email",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }
